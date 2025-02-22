@@ -1,0 +1,13 @@
+lists = []
+while True:
+    number = input('Insert number. To see the average of numbers insert q: ')
+    if number == 'q':
+        break
+    else:
+        lists.append(int(number))
+
+if len(lists) > 0:   
+    x = sum(lists) / len(lists)
+    print(f"The mean of numbers is: {x}.")
+else:
+    print("No numbers were inserted")
