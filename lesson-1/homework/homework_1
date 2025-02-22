@@ -1,0 +1,5 @@
+x = int(input('Side of the square: '))
+perimeter = 4 * x
+area = x * x
+print(f"The perimeter of the square is {perimeter}.")
+print(f"The area of the square is {area}.")
